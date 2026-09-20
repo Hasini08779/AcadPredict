@@ -1,0 +1,41 @@
+.ai-mock-grid {
+  align-items: stretch;
+}
+
+.ai-mock-card {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) auto;
+  align-items: start;
+  column-gap: 12px;
+  min-height: 154px;
+  box-sizing: border-box;
+}
+
+.ai-mock-status.moderate {
+  color: #c87817;
+}
+
+.ai-mock-status.needs-improvement {
+  color: #dc2626;
+}
+
+.ai-mock-card h3 {
+  min-height: 32px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.ai-mock-card .ai-outline-button {
+  grid-column: 2;
+  margin: 12px 0 0;
+  max-width: 100%;
+  white-space: normal;
+  line-height: 1.2;
+}
+
+@media (max-width: 650px) {
+  .ai-mock-card {
+    min-height: 148px;
+  }
+}

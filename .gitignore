@@ -1,0 +1,25 @@
+# Environment files and local secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Python caches and local tooling
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs and local runtime files
+*.log
+*.local
+*.save
+
+# OS and editor files
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
